@@ -1,8 +1,8 @@
+import express from "express";
+import SpeedTestController from '../controllers/speedController.js';
 
-const express = require('express');
-const { getSpeed } = require('../controllers/speedController');
 const router = express.Router();
 
-router.get('/', getSpeed);
+router.get('/', SpeedTestController.getSpeed);
 
-module.exports = router;
+ export default router;
