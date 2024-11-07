@@ -1,6 +1,7 @@
 # <u><i>Turbo Test </u> </i>
 An Internet Speed Test web application built with the MERN stack (MongoDB, Express, React, and Node.js).<br>
-This app allows users to run an internet speed test, displaying their download speed, upload speed, latency, buffer bloat, location, and IP address. The application also features a loading animation to provide a visual indicator while the speed is being measured.
+This app allows users to run an internet speed test, displaying their download speed, upload speed, latency, buffer bloat, location, and IP address. The application also features a loading animation to provide a visual indicator while the speed is being measured. <br><br>
+For this I use <b>fast-cli </b> library. It runs speed tests through the Fast.com servers, which are powered by Netflix, and provides results like download and upload speeds.
 
 ## Features
 ### <li> Run Speed Test: 
